@@ -1,0 +1,42 @@
+language ESSENCE' 1.0
+
+given db : mset of set of int
+
+given current_size : int
+
+given min_freq : int
+
+letting db_minValue be  min([val | entry <- db, val <- entry])
+letting db_maxValue be max([val | entry <- db, val <- entry])
+letting db_maxEntrySize be max([ |entry| | entry <- db ])
+letting db_row_size be |db|
+
+given utility_values : matrix indexed by [int(db_minValue..db_maxValue)] of int
+$ given cost_values : matrix indexed by [int(db_minValue..db_maxValue)] of int
+
+given min_utility : int
+$ given max_cost : int
+
+find db_minValue_var : int(db_minValue)
+find db_maxValue_var : int(db_maxValue)
+find db_maxEntrySize_var : int(db_maxEntrySize)
+
+given closed_freq_items_so_far : set of (set of int(db_minValue..db_maxValue), int(1..db_row_size))
+
+find freq_items : (set (size current_size) of int(db_minValue..db_maxValue), int(1..db_row_size))
+
+such that
+    (sum entry in db . toInt(freq_items[1] subsetEq entry)) = freq_items[2]
+
+such that
+    freq_items[2] >= min_freq
+
+such that
+    (sum item in freq_items[1] . utility_values[item]) >= min_utility
+
+$ such that
+$     (sum item in freq_items[1] . cost_values[item]) <= max_cost
+
+
+such that
+    forAll (i,j) in closed_freq_items_so_far . ((freq_items[1] subsetEq i) -> (freq_items[2] > j))

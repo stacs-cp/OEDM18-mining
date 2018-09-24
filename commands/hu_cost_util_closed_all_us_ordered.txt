@@ -1,0 +1,90 @@
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_anneal/anneal_50.param 50
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_anneal/anneal-mz.dat 50 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_audiology/audio_50.param 50
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_audiology/audio-mz.dat 50 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_australian/aus_50.param 50
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_australian/aus-mz.dat 50 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_german/german_50.param 50
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_german/german-mz.dat 50 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_heart/heart_50.param 50
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_heart/heart-mz.dat 50 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_hepatisis/hepatit_50.param 50
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_hepatisis/hepatit-mz.dat 50 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_hypothyroid/hypo_50.param 50
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_hypothyroid/hypo-mz.dat 50 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_krvskp/krvskp_50.param 50
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_krvskp/krvskp-mz.dat 50 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_lymph/lymph_50.param 50
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_lymph/lymph-mz.dat 50 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_anneal/anneal_40.param 40
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_anneal/anneal-mz.dat 40 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_audiology/audio_40.param 40
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_audiology/audio-mz.dat 40 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_australian/aus_40.param 40
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_australian/aus-mz.dat 40 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_german/german_40.param 40
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_german/german-mz.dat 40 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_heart/heart_40.param 40
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_heart/heart-mz.dat 40 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_hepatisis/hepatit_40.param 40
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_hepatisis/hepatit-mz.dat 40 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_hypothyroid/hypo_40.param 40
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_hypothyroid/hypo-mz.dat 40 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_krvskp/krvskp_40.param 40
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_krvskp/krvskp-mz.dat 40 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_lymph/lymph_40.param 40
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_lymph/lymph-mz.dat 40 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_anneal/anneal_30.param 30
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_anneal/anneal-mz.dat 30 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_audiology/audio_30.param 30
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_audiology/audio-mz.dat 30 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_australian/aus_30.param 30
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_australian/aus-mz.dat 30 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_german/german_30.param 30
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_german/german-mz.dat 30 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_heart/heart_30.param 30
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_heart/heart-mz.dat 30 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_hepatisis/hepatit_30.param 30
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_hepatisis/hepatit-mz.dat 30 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_hypothyroid/hypo_30.param 30
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_hypothyroid/hypo-mz.dat 30 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_krvskp/krvskp_30.param 30
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_krvskp/krvskp-mz.dat 30 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_lymph/lymph_30.param 30
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_lymph/lymph-mz.dat 30 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_anneal/anneal_20.param 20
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_anneal/anneal-mz.dat 20 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_audiology/audio_20.param 20
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_audiology/audio-mz.dat 20 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_australian/aus_20.param 20
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_australian/aus-mz.dat 20 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_german/german_20.param 20
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_german/german-mz.dat 20 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_heart/heart_20.param 20
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_heart/heart-mz.dat 20 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_hepatisis/hepatit_20.param 20
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_hepatisis/hepatit-mz.dat 20 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_hypothyroid/hypo_20.param 20
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_hypothyroid/hypo-mz.dat 20 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_krvskp/krvskp_20.param 20
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_krvskp/krvskp-mz.dat 20 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_lymph/lymph_20.param 20
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_lymph/lymph-mz.dat 20 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_anneal/anneal_10.param 10
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_anneal/anneal-mz.dat 10 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_audiology/audio_10.param 10
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_audiology/audio-mz.dat 10 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_australian/aus_10.param 10
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_australian/aus-mz.dat 10 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_german/german_10.param 10
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_german/german-mz.dat 10 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_heart/heart_10.param 10
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_heart/heart-mz.dat 10 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_hepatisis/hepatit_10.param 10
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_hepatisis/hepatit-mz.dat 10 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_hypothyroid/hypo_10.param 10
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_hypothyroid/hypo-mz.dat 10 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_krvskp/krvskp_10.param 10
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_krvskp/krvskp-mz.dat 10 -keywords=freqitems,freq_items,Gecode,reify
+python3 scripts/miner-lite.py c models/hu_closed_cost_util_freqmining.eprime data/hu_mining/cost_and_util/hu_closed_lymph/lymph_10.param 10
+python3 scripts/mzinc_run.py u models/hu_cost_util_freqmining.mzn data/hu_mining/cost_and_util/hu_closed_lymph/lymph-mz.dat 10 -keywords=freqitems,freq_items,Gecode,reify
