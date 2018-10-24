@@ -1,6 +1,6 @@
 # OEDM18-mining
 
-Repository for the experiments mentioned in the paper "Closed itemset mining with arbitrary side constraints" on OEDM18.
+Repository containing experiments for the paper "Closed itemset mining with arbitrary side constraints", published at OEDM18.
 
 ## Softwares
 
